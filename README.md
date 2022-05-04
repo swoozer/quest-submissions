@@ -7,8 +7,8 @@ Chapter 1 Day 1 Quest
 
 Chapter 1 Day 2 Quest
 - Cadence Programming Language Pillars
-- - 1. Safety and Security --> Keep users' $$ and assets protected!
-- - 2. Clarity --> Prevents miscommunication!
-- - 3. Approachability --> Easy-to-read for all developers!
-- - 4. Developer Experience --> User-friendly!
-- - 5. Resource Oriented Programming
+ 1. Safety and Security --> Keep users' $$ and assets protected!
+ 2. Clarity --> Prevents miscommunication!
+ 3. Approachability --> Easy-to-read for all developers!
+ 4. Developer Experience --> User-friendly!
+ 5. Resource Oriented Programming
