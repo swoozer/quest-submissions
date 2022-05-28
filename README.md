@@ -80,3 +80,30 @@ transaction(myNewNumber: Int) {
 ![image](https://user-images.githubusercontent.com/104751516/170808127-ece01a57-2e92-4830-a108-48398e7e2e6f.png)
 
 2.
+![image](https://user-images.githubusercontent.com/104751516/170811676-28572258-dea4-4120-9c55-4eaf177a3ca2.png)
+
+![image](https://user-images.githubusercontent.com/104751516/170811700-499c7f0a-2c4b-41ed-b8b3-3d8ec2014717.png)
+
+<br></br>
+
+3. The force unwrap operator ! allows the function to return an optional, where if the type is defined then the optional type is removed and if the type is nil then the entire program aborts. For example, setting Int? = 0 returns 0, but setting Int? = nil returns ERROR.
+
+![image](https://user-images.githubusercontent.com/104751516/170812058-1c47a79d-ef30-48db-bc6c-dcc63eda7dcf.png)
+![image](https://user-images.githubusercontent.com/104751516/170812080-a8accab1-46c4-47ba-9ea9-ff282ba56a20.png)
+
+<br></br>
+
+![image](https://user-images.githubusercontent.com/104751516/170812119-80915162-b82d-4548-b9a8-b3d1ab053548.png)
+![image](https://user-images.githubusercontent.com/104751516/170812140-dc2d192a-1f00-4c8e-a691-43fb816d6f7f.png)
+
+<br></br>
+
+4. The error message ("mismatched types. expected String, got String?") means that the function returned an optional value - String or nil - when it was expecting only String values. We are getting this message because accessing elements of a dictionary returns optionals. In order to fix it, we will need to add the force unwrap operator (!) into the return command as shown below.
+
+![image](https://user-images.githubusercontent.com/104751516/170812402-d2b8d0a8-3186-4c15-a348-d434141be6c9.png)
+
+![image](https://user-images.githubusercontent.com/104751516/170812413-ac7f23dd-e1ff-44f3-abca-fa9020b8c958.png)
+
+<br></br>
+<b> Chapter 2 Day 4 Quest </b>
+
